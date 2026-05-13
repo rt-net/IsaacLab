@@ -22,6 +22,10 @@ INSTALL_REQUIRES = [
     "torch>=2.7",
     "onnx>=1.18.0",  # 1.16.2 throws access violation on Windows
     "prettytable==3.3.0",
+    "ipython==9.10.0",
+    "psutil==5.9.8",
+    "setuptools<82",
+    "click==8.1.7",
     "toml",
     # devices
     "hidapi==0.14.0.post2",
